@@ -1,0 +1,24 @@
+/* Ensure your entire app takes full height of the viewport */
+html, body {
+  height: 100%;
+  margin: 0;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Make sure the root takes at least the full height of the viewport */
+}
+
+main {
+  margin-top: 90px;
+  flex: 1; /* Allow the main content to grow and take available space */
+}
+
+footer {
+  background-color: #f1f1f1; /* Adjust as needed */
+  padding: 20px; /* Adjust as needed */
+  text-align: center; /* Center the text in the footer */
+}

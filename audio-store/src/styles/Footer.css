@@ -1,0 +1,90 @@
+/* src/styles/Footer.css */
+
+footer {
+    background-color: #0c0c0c;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    transition: background-color 0.5s ease;
+    overflow: hidden;
+  }
+
+  footer h2 {
+    color: #fff;
+  font-family: 'Arial Black', sans-serif;
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  animation: textGlow 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes textGlow {
+  from {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #00e, 0 0 30px #00e, 0 0 40px #00e, 0 0 55px #00e, 0 0 75px #00e;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff, 0 0 50px #00e, 0 0 60px #00e, 0 0 70px #00e, 0 0 80px #00e, 0 0 100px #00e;
+  }
+}
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footer-content p {
+    margin: 0 0 20px;
+    font-size: 16px;
+  }
+  
+  .footer-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .footer-nav li {
+    margin: 10px 20px;
+  }
+  
+  .footer-nav li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s, transform 0.3s;
+  }
+  
+  .footer-nav li a:hover {
+    color: #ddd;
+    transform: translateY(-3px); /* Lift up on hover */
+  }
+  
+  .social-media {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .social-media a {
+    color: #fff;
+    font-size: 24px;
+    transition: color 0.3s, transform 0.3s;
+  }
+  
+  .social-media a:hover {
+    color: #88a8ec;
+    transform: scale(1.2); /* Slightly enlarge on hover */
+  }
+  

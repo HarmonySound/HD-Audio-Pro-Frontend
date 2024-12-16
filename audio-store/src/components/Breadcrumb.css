@@ -1,0 +1,24 @@
+/* src/styles/Breadcrumb.css */
+
+.breadcrumb {
+    margin: 20px 0;
+  }
+  
+  .breadcrumb h2 {
+    font-size: 1.5em;
+    margin: 0;
+  }
+  
+  .breadcrumb a {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  .breadcrumb a:hover {
+    text-decoration: underline;
+  }
+  
+  .breadcrumb span {
+    color: grey;
+  }
+  
